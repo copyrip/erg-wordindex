@@ -16,7 +16,8 @@ Lexicographic generated index from rss gathered erg's satellite data.
 * [x] include jquery.js locally
 * [x] change preload
 * [x] add webfont (Latin Modern Mono)
-* [ ] standalone css
+* [x] standalone css
+* [ ] css cleanout
 * [ ] standalone javascript
 * [ ] understandable ui
 * [ ] index useless term hiding
@@ -24,3 +25,4 @@ Lexicographic generated index from rss gathered erg's satellite data.
 * [ ] repair & understand broken links
 * [ ] url persistent links
 * [ ] what if no javascript :'( ?
+* [ ] make it responsive
