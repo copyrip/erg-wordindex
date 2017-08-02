@@ -1,0 +1,242 @@
+@import '../fonts/font.css';
+@-webkit-keyframes rotate {
+from {
+-webkit-transform: rotate(0deg);
+}
+to {
+-webkit-transform: rotate(360deg);
+}
+}
+.rotrot {
+    position:fixed;
+    top:50%;
+    margin-top:-50pÓx;
+    width:100px;
+    left:50%;
+    margin-left:-50px;
+    -webkit-animation-name:             rotate;
+-webkit-animation-duration:         0.5s;
+-webkit-animation-iteration-count:  infinite;
+-webkit-transition-timing-function: linear;
+}
+
+
+/* ----- Preloader ----- */
+@-webkit-keyframes rotating /* Safari and Chrome */ {
+  from {
+    -webkit-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@keyframes rotating {
+  from {
+    -ms-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  to {
+    -ms-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+#preloader {
+  background-color: #FFF;
+  position: fixed;
+  right: 50%;
+  top: 50%;
+  margin-top: -200px;
+}
+
+#preloader h3 {
+  font-family: "Latin Modern Mono",monospace;
+  animation-name: rotating;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+
+div#preloader {
+    /*position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 999;
+    width: 100%;
+    height: 100%;
+    overflow: visible;
+    background:#fff;*/
+    /*background: #fff url('http://files.mimoymima.com/images/loading.gif') no-repeat center center;*/ }
+.count {
+    font-family:"Latin Modern Mono Light", monospace;
+    font-weight:normal;
+}
+.visible {
+    color:blue;
+    display:block;
+}
+
+.active {
+    background:#fff;
+    cursor:pointer;
+}
+
+body {
+    font-family:"Latin Modern Mono",monospace;
+    font-size:12pt;
+}
+#content {
+    width:900px;
+    margin-left:400px;
+    display:inline-block;
+    //zoom:0.3;
+}
+
+#menu {
+    /*position:fixed;*/
+}
+
+#menu h1 {
+    font-size:18pt;
+    display:block;
+    margin:0;
+    background:#eee;
+}
+
+#wordIndex {
+    padding-top:15px;
+    padding-left:15px;
+    /*margin-top:55px;*/
+}
+
+#wordIndex a {
+    color:#000;
+    font-size:12pt;
+    line-height:12pt;
+    text-decoration:none;
+}
+#wordIndex a:hover {
+    text-decoration:underline;
+    color:blue;
+}
+#wordIndex tr:hover > td a {
+    text-decoration:underline;
+    color:blue;
+}
+
+#workIndex tr {
+    border-bottom:10px solid #000;
+}
+
+#wordIndex tr:hover {
+    background:#fff;
+    cursor:pointer;
+    border-bottom:1px solid #000;
+}
+
+.item {
+    font-family:"Latin Modern Mono Light", monospace;
+    font-weight:normal;
+    position:relative;
+    /*z-index:999;*/
+}
+
+.item h1 {
+    font-family:"Latin Modern Mono Light", monospace;
+    font-weight:normal;
+    cursor:pointer;
+    font-size:12pt;
+    line-height:12pt;
+    border-bottom:1px solid #000;
+}
+
+.item h1:hover {
+    color:#fff;
+    background:#000;
+}
+
+/*    .item h1:hover + .item_body{
+    display:block;
+}*/
+
+.item img {
+    max-width:400px;
+}
+
+.item div {
+    //display:none;
+}
+
+.item_body {
+    display:none;
+}
+
+#RobW-sample {
+    width:400px;
+    float:left;
+    display:inline-block;
+    position:fixed;
+
+    top:0px;
+    left:0px;
+
+    padding:0px;
+
+    height:100%;
+
+    background:#eee;
+
+    overflow-y:scroll !important;
+}
+
+#wordAnalysis td{padding:1px 3px 1px 5px;text-align:left}
+.num-words-header{font-weight:bold;border-top:1px solid #000}
+
+#wordAnalysis {
+    background:#fff;
+
+    font-size:8pt;
+}
+
+
+  svg {
+    width:100%;
+    height:100%;
+    position:absolute;
+    top:0;
+    left:0;
+    /*z-index:-1;*/
+  }
+  /*
+  .excerpt {
+      color: green;
+  }
+  .content {
+      color: blue;
+  }
+  .enclosure, .enclosure a {
+      color: aqua;
+  }
+  .tag {
+      color: purple;
+  }
+  .updated {
+      color: magenta;
+  }
+  .title a {
+      color: black;
+  }
+  */
+  /*div.item { border-left: 2px solid black; padding-left: 1em; margin: 1em; }*/
+  /*span.tag { margin-right: 1em; text-transform: uppercase; border: 2px dotted green;}*/
