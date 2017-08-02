@@ -26,5 +26,5 @@ Lexicographic generated index from rss gathered erg's satellite data.
 * [ ] verify counting
 * [ ] repair & understand broken links
 * [ ] url persistent links
-* [ ] what if no javascript :'( ?
+* [ ] what if no javascript :fire: ?
 * [ ] make it responsive
