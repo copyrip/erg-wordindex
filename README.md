@@ -7,11 +7,17 @@ Lexicographic generated index from rss gathered erg's satellite data.
 
 [jQuery](https://github.com/jquery/jquery) is used only for user interface and animation smoothness.
 
+[CircleType.js](https://github.com/peterhry/CircleType/) is used for the preloader stamp, and its [lettering.js](https://github.com/davatron5000/Lettering.js) dependency.
+
 # to do list
 * [ ] clean and comment code
 * [x] dummy json (from rss) for dev
 * [x] include d3.js locally
 * [x] include jquery.js locally
+* [x] change preload
+* [x] add webfont (Latin Modern Mono)
+* [ ] standalone css
+* [ ] standalone javascript
 * [ ] understandable ui
 * [ ] index useless term hiding
 * [ ] verify counting
