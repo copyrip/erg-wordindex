@@ -18,7 +18,9 @@ Lexicographic generated index from rss gathered erg's satellite data.
 * [x] add webfont (Latin Modern Mono)
 * [x] standalone css
 * [ ] css cleanout
-* [ ] standalone javascript
+* [x] standalone javascript
+* [ ] javascript cleanout
+* [x] add simple metadata
 * [ ] understandable ui
 * [ ] index useless term hiding
 * [ ] verify counting
