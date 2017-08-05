@@ -278,6 +278,8 @@ function collapse(){
     $(".item_body").removeClass("visible");
 }
 
+/* Work in progress, useless snippets & more */
+
 function blacklist(text,blacklist){
     var temp_text = text;
     /*for(i=0;i<blacklist.length;i++){
